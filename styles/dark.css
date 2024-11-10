@@ -15,7 +15,7 @@
   --header-text-color: #000;
   --card-name-color: #000028;
 }
-.page .theme_dark {
+.theme_dark .page  {
   --accent-color: #ff0070;
   --color-button: #ff0070;
   --background-image: url(../images/cover-image-dark.png);

@@ -41,7 +41,7 @@
   gap: var(--gap);
   inset-inline-end: 0;
   inset-block-start: 0;
-  font-family: "IBM Plex Mono", Arial, sans-serif;
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: var(--font-size);
   font-weight: 400;
   line-height: 25px;
@@ -103,7 +103,7 @@
   border: none;
   color: var(--color-button);
   cursor: pointer;
-  font-family: "IBM Plex Mono";
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: var(--font-size);
   font-weight: 400;
   line-height: 18px;
@@ -142,7 +142,7 @@
 }
 
 .header__text {
-  font-family: "IBM Plex Mono", Arial, sans-serif;
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: var(--font-size);
   font-weight: 700;
   line-height: 23.4px;
@@ -218,7 +218,7 @@
 .cards__title {
   color: var(--card-title-color);
   margin: 50px 0 0;
-  font-family: "IBM Plex Mono", Arial, sans-serif;
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -227,14 +227,14 @@
 .card__name {
   margin: 20px 0 10px;
   color: var(--card-name-color);
-  font-family: "IBM Plex Mono", Arial, sans-serif;
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
 }
 
 .card__text {
-  font-family: "IBM Plex Mono", Arial, sans-serif;
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
@@ -341,7 +341,7 @@
 }
 
 .footer__title {
-  font-family: "IBM Plex Mono", Arial, sans-serif;
+  font-family: var(--main-font), Arial, sans-serif;
   font-size: 116px;
   font-weight: 700;
   line-height: 95.7px;

@@ -3,6 +3,18 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+.theme_light .page {
+  --accent-color: #ff8dc8;
+  --color-button: #353430;
+  --background-image: url(../images/cover-image-light.png);
+  --title-color: #ffc2e6;
+  --background-text-color: #ffc2e6;
+  --decoration-color: #353430;
+  --text-color: #353430;
+  --card-title-color: #353430;
+  --header-text-color: #353430;
+  --card-name-color: #353430;
+}
 
 
 :root .theme_light {
@@ -16,11 +28,11 @@
   --card-title-color: #353430;
   --header-text-color: #353430;
   --card-name-color: #353430;
-   }
-
-   .theme_light .decorated-icon {
-    display: none;
   }
+
+.theme_light .decorated-icon {
+  display: none;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
