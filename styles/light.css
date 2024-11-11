@@ -3,57 +3,53 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-.theme_light .page {
+.page.theme_light {
   --accent-color: #ff8dc8;
   --color-button: #353430;
+  --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
   --title-color: #ffc2e6;
   --background-text-color: #ffc2e6;
   --decoration-color: #353430;
   --text-color: #353430;
+  --header-text-color: #353430;
   --card-title-color: #353430;
   --header-text-color: #353430;
   --card-name-color: #353430;
 }
 
-
-:root .theme_light {
-  --accent-color: #ff8dc8;
-  --color-button: #353430;
-  --background-image: url(../images/cover-image-light.png);
-  --title-color: #ffc2e6;
-  --background-text-color: #ffc2e6;
-  --decoration-color: #353430;
-  --text-color: #353430;
-  --card-title-color: #353430;
-  --header-text-color: #353430;
-  --card-name-color: #353430;
-  }
-
 .theme_light .decorated-icon {
   display: none;
+}
+
+.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid rgb(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dc8;
     --color-button: #353430;
+    --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
     --title-color: #ffc2e6;
     --background-text-color: #ffc2e6;
     --decoration-color: #353430;
     --text-color: #353430;
+    --header-text-color: #353430;
     --card-title-color: #353430;
     --header-text-color: #353430;
     --card-name-color: #353430;
-   }
-   .decorated-icon {
-    display: none;
-   }
   }
+  .decorated-icon {
+    display: none;
+  }
+  .header__theme-menu-button:hover {
+    outline: 1px solid rgb(50, 49, 45, 0.4);
+  }
+}
 
-  /* сохраните этот селектор в приведённом виде.
+/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-
