@@ -3,6 +3,22 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+.page.theme_dark {
+  --accent-color: #ff0070;
+  --color-button: #ff0070;
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --title-color: #db00ff;
+  --background-text-color: #ff0070;
+  --decoration-color: #ff0070;
+  --text-color: #f1b2ce;
+  --header-text-color: #000028;
+  --card-title-color: #ff0070;
+  --card-name-color: #000028;
+  --decoration-color: #ff0070;
+  --button-accent-color: rgb(255, 0, 112, 0.4);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
@@ -16,9 +32,8 @@
     --header-text-color: #000028;
     --card-title-color: #ff0070;
     --card-name-color: #000028;
-  }
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgb(255, 0, 112, 0.4);
+    --decoration-color: #ff0070;
+    --button-accent-color: rgb(255, 0, 112, 0.4);
   }
 }
 

@@ -21,7 +21,7 @@
 }
 
 .decorated-icon {
-  color: var(--accent-color);
+  color: var(--decoration-color);
   position: absolute;
   display: flex;
   place-content: center;
@@ -40,9 +40,9 @@
   display: block;
   inline-size: 9px;
   block-size: 9px;
-  background-color: var(--accent-color);
+  background-color: var(--decoration-color);
   border-radius: 50%;
-  box-shadow: 0 0 3px 3px var(--accent-color);
+  box-shadow: 0 0 3px 3px var(--decoration-color);
   place-self: center;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid rgb(255, 0, 112, 0.4);
+  outline: 1px solid var(--button-accent-color);
 }
 
 .header__theme-menu-button:focus-visible {
